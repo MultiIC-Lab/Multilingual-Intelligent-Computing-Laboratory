@@ -1,0 +1,2 @@
+# Multilingual-Intelligent-Computing-Laboratory
+多语智能计算实验室：聚焦多语智能计算，配备高性能服务器与大规模语料库，重点开展语言模型驱动的自然语言处理及语言服务行业应用研究
