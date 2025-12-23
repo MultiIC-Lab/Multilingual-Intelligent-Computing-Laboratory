@@ -1,4 +1,4 @@
-# 多语智能计算实验室 (Multi-lingual Intelligent Computing Laboratory)
+# 多语智能计算实验室 (Multilingual Intelligent Computing Laboratory)
 
 <div align="center">
 
