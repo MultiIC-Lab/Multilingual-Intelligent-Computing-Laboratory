@@ -10,7 +10,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)](LICENSE)
 [![Last Updated](https://img.shields.io/badge/Updated-2025.01.15-green.svg?style=for-the-badge)](https://github.com/MICLab-Lab/MultiICLab/commits/main)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![Hugging Face](https://img.shields.io/badge/HuggingFace-Models-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/MultiICLab)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Models-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co)
 
 </div>
 
