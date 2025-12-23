@@ -1,156 +1,104 @@
-# 多语智能计算实验室 (Multilingual Intelligent Computing Lab)
+# 多语智能计算实验室 (Multi-lingual Intelligent Computing Laboratory)
 
-![实验室Logo](https://via.placeholder.com/150x150/4A90E2/FFFFFF?text=MICLab)
-![GitHub stars](https://img.shields.io/github/stars/MICLab-Lab/MICLab?style=social)
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2024.03.15-green.svg)
+<div align="center">
 
-## 实验室简介
+![MultiICLab Banner](https://via.placeholder.com/1200x300/2C3E50/FFFFFF?text=MultiICLab+%E5%A4%9A%E8%AF%AD%E6%99%BA%E8%83%BD%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E5%AE%A4)
 
-多语智能计算实验室（MICLab）致力于研究跨语言、多模态的智能计算技术。我们专注于自然语言处理、机器翻译、跨语言信息检索和多语种语音识别等前沿领域的研究与开发。
+**构建语言智能桥梁 · 赋能全球沟通未来**
 
-**核心研究方向：**
-- 🌍 跨语言预训练模型
-- 🔤 低资源语言处理
-- 🗣️ 多语种语音技术
-- 📊 多模态信息处理
-- 🔍 跨语言检索与理解
+[![GitHub stars](https://img.shields.io/github/stars/MICLab-Lab/MultiICLab?style=for-the-badge&logo=github)](https://github.com/MICLab-Lab/MultiICLab/stargazers)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)](LICENSE)
+[![Last Updated](https://img.shields.io/badge/Updated-2025.01.15-green.svg?style=for-the-badge)](https://github.com/MICLab-Lab/MultiICLab/commits/main)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Models-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/MultiICLab)
 
-## 快速导航
-- [数据集资源](#数据集资源)
-- [工具与模型](#工具与模型)
-- [研究成果](#研究成果)
-- [团队介绍](#团队介绍)
-- [参与贡献](#参与贡献)
-- [联系我们](#联系我们)
-
-## 数据集资源
-
-### 📥 多语种文本语料库
-
-| 数据集名称 | 语言数量 | 数据规模 | 下载链接 | 简介 |
-|-----------|----------|----------|----------|------|
-| **MIC-Corpus v1.0** | 50+ | 10TB | [下载](https://example.com/datasets/mic-corpus-v1.0.zip) | 涵盖50多种语言的大规模平行语料库，包含新闻、文学、科技等多领域文本 |
-| **LowRes-NLP v2.1** | 25 | 500GB | [下载](https://example.com/datasets/lowres-nlp-v2.1.tar.gz) | 专注于低资源语言的文本数据集，包含注释和语言标注 |
-| **Multi-News v1.5** | 15 | 200GB | [下载](https://example.com/datasets/multi-news-v1.5.7z) | 多语言新闻数据集，涵盖15种语言的新闻文章及其摘要 |
-
-### 📥 语音与音频数据集
-
-| 数据集名称 | 语言数量 | 时长 | 下载链接 | 简介 |
-|-----------|----------|------|----------|------|
-| **Global-Voice v3.0** | 40+ | 5,000小时 | [下载](https://example.com/datasets/global-voice-v3.0.zip) | 40多种语言的语音识别数据集，包含说话人信息和语音转录 |
-| **Multi-Speech v1.2** | 30 | 2,000小时 | [下载](https://example.com/datasets/multi-speech-v1.2.tar) | 多说话人、多场景的语音数据集，适合语音合成研究 |
-| **Accent-DB v1.0** | 10 | 500小时 | [下载](https://example.com/datasets/accent-db-v1.0.zip) | 包含10种语言的多种口音变体，用于口音识别与适应研究 |
-
-### 📥 多模态数据集
-
-| 数据集名称 | 模态 | 数据量 | 下载链接 | 简介 |
-|-----------|------|--------|----------|------|
-| **Image-Text-Multi v2.0** | 图像+文本 | 100万对 | [下载](https://example.com/datasets/itm-v2.0.zip) | 多语言图像描述数据集，包含30种语言的图像描述文本 |
-| **Video-Subtitle v1.5** | 视频+字幕 | 10,000小时 | [下载](https://example.com/datasets/video-subtitle-v1.5.tar.gz) | 多语言视频字幕数据集，涵盖20种语言的影视内容 |
-| **Speech-Gesture v1.1** | 语音+动作 | 200小时 | [下载](https://example.com/datasets/speech-gesture-v1.1.zip) | 语音与对应手势动作的多模态数据集 |
-
-### 📥 评估与基准数据集
-
-| 数据集名称 | 用途 | 语言数量 | 下载链接 | 简介 |
-|-----------|------|----------|----------|------|
-| **XTREME v2.0 Enhanced** | 多任务评估 | 40+ | [下载](https://example.com/datasets/xtreme-v2.0.zip) | 扩展版XTREME基准，增加低资源语言任务 |
-| **MLQA-Pro v1.3** | 问答评估 | 7 | [下载](https://example.com/datasets/mlqa-pro-v1.3.tar) | 多语言问答评估数据集，涵盖7种语言的问题-答案对 |
-| **Multi-NLI v1.8** | 推理评估 | 15 | [下载](https://example.com/datasets/multi-nli-v1.8.zip) | 多语言自然语言推理数据集，用于跨语言推理能力评估 |
-
-## 下载说明
-
-### 下载方式
-1. **直接下载**：点击上述链接直接下载
-2. **命令行下载**：
-   ```bash
-   # 使用wget下载
-   wget https://example.com/datasets/mic-corpus-v1.0.zip
-   
-   # 或使用curl
-   curl -O https://example.com/datasets/mic-corpus-v1.0.zip
-   ```
-3. **使用数据加载脚本**：
-   ```python
-   from miclab.datasets import download_dataset
-   
-   # 下载指定数据集
-   download_dataset('mic-corpus-v1.0', save_path='./data/')
-   ```
-
-### 数据格式
-所有数据集均提供以下格式：
-- 原始数据文件
-- 预处理后的标准格式（JSON/JSONL/TSV）
-- 数据统计信息和元数据
-- 读取和使用示例代码
-
-### 使用许可
-除非特别注明，所有数据集均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可。商业使用请[联系我们](#联系我们)。
-
-## 工具与模型
-
-### 🔧 开源工具
-- **MIC-Processor**：多语言文本处理工具包
-- **LangTools v1.0**：低资源语言分析工具
-- **CrossModal-Align**：跨模态对齐工具
-
-### 🤖 预训练模型
-| 模型名称 | 参数量 | 支持语言 | HuggingFace链接 | 简介 |
-|----------|--------|----------|-----------------|------|
-| **MIC-BERT v3.0** | 340M | 100+ | [链接](https://huggingface.co/MICLab/mic-bert-v3) | 支持100多种语言的BERT模型 |
-| **XLM-R Large** | 550M | 100 | [链接](https://huggingface.co/MICLab/xlm-r-large) | 基于XLM-R的增强版本 |
-| **LowRes-T5 v2.1** | 220M | 25 | [链接](https://huggingface.co/MICLab/lowres-t5-v2) | 针对低资源语言优化的T5模型 |
-
-## 研究成果
-
-### 近期论文
-- **2024**：《Cross-lingual Transfer Learning for Low-Resource Languages》- ACL 2024
-- **2023**：《Multi-modal Alignment for Multilingual Representations》- EMNLP 2023
-- **2023**：《Efficient Fine-tuning for Multilingual Models》- NAACL 2023
-
-### 开源项目
-- [MIC-Framework](https://github.com/MICLab-Lab/MIC-Framework)：多语言模型训练框架
-- [LangBench](https://github.com/MICLab-Lab/LangBench)：多语言评估基准
-- [DataTools](https://github.com/MICLab-Lab/DataTools)：多语言数据处理工具
-
-## 团队介绍
-
-**实验室主任**：张教授（自然语言处理方向）  
-**研究方向**：
-- 多语言预训练模型
-- 跨语言迁移学习
-- 低资源语言处理
-
-**核心成员**：
-- 李研究员（语音处理方向）
-- 王研究员（多模态学习方向）
-- 陈研究员（机器翻译方向）
-
-## 参与贡献
-
-我们欢迎各界人士参与贡献：
-
-1. **数据集贡献**：提交新的多语言数据集
-2. **代码贡献**：改进我们的工具和框架
-3. **文档贡献**：完善文档和教程
-4. **研究合作**：共同开展多语言计算研究
-
-请参阅 [CONTRIBUTING.md](CONTRIBUTING.md) 了解详细贡献指南。
-
-## 联系我们
-
-- **官方网站**：https://miclab.edu.cn
-- **电子邮件**：contact@miclab.edu.cn
-- **地址**：XX市XX区XX路XX号科技大厦
-- **GitHub Issues**：[问题反馈](https://github.com/MICLab-Lab/MICLab/issues)
-
-## 致谢
-
-感谢以下机构对我们研究的支持：
-
-![合作机构](https://via.placeholder.com/800x100/FFFFFF/4A90E2?text=合作机构+Logo+区域)
+</div>
 
 ---
 
-**版权声明** © 2024 多语智能计算实验室。保留所有权利。
+## 🏛️ 实验室简介
+
+**多语智能计算实验室（MultiICLab）** 成立于2025年，是中西创新学院内一个汇聚跨学科智慧、致力于突破多语言智能计算前沿的创新型研究平台。实验室由**著名翻译学家仲伟合教授**和**国际语言服务专家王立非教授**共同领衔，融合了来自翻译学、语言学、教育学、计算语言学、人工智能及语言服务产业等多个领域的学者与青年才俊。
+
+我们秉持 **“技术驱动、产研融合、服务社会”** 的核心理念，依托先进的高性能计算集群与大规模多模态语料库，系统开展从基础理论到产业应用的全链条研究，旨在破解多语言智能处理的核心难题，推动语言服务行业的智能化升级。
+
+## 🎯 核心使命
+
+>**🧠 科研突破**：探索多语言大模型的前沿理论与方法。
+>
+>**⚙️ 技术创新**：研发高效、可靠的多语言智能处理工具。
+>
+>**🏢 产业赋能**：为语言服务行业提供智能化解决方案。
+>
+>**👨‍🎓 人才培养**：培育兼具技术能力与行业洞察的复合型人才。
+>
+>**🌱 生态建设**：构建开放、协作的多语言智能计算开源社区。
+
+## 🔬 研究方向
+
+### 🌐 基础理论研究
+<div align="center">
+
+| 研究方向 | 关键问题 | 技术路径 |
+| :--- | :--- | :--- |
+| **多语言大模型** | 跨语言知识迁移、低资源语言适配 | 高效预训练、参数高效微调 |
+| **语义理解与生成** | 跨语言语义对齐、文化适应性 | 多任务学习、对比学习 |
+| **认知计算模型** | 人类语言习得机理建模 | 神经符号融合、认知启发式设计 |
+
+</div>
+
+### 🛠️ 关键技术研发
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### 🤖 **智能翻译系统**
+- 多语言大模型机器翻译
+- 领域自适应与个性化翻译
+- 实时交互式翻译辅助
+
+</td>
+<td width="33%" valign="top">
+
+#### 🔍 **跨语言信息处理**
+- 深度语义检索与问答
+- 多语言文本摘要与生成
+- 跨语言知识图谱构建
+
+</td>
+<td width="33%" valign="top">
+
+#### 📊 **行业智能应用**
+- 领域术语建模与管理
+- 本地化内容智能生成
+- 人机协同工作流优化
+
+</td>
+</tr>
+</table>
+
+## 📚 代表性数据集资源（持续更新中）
+
+我们致力于构建和开源高质量的多语言数据集，以推动领域研究。以下是我们发布和维护的核心数据集。
+
+| 数据集名称 | 语言/模态 | 规模/特点 | 主要用途 | 下载链接 |
+| :--- | :--- | :--- | :--- | :--- |
+| **中国语言服务发展报告多语种数据库** | 中文、英文、阿拉伯语、德语、俄语、法语、韩语、葡语、日语、西语 | 覆盖9种语言的《中国语言服务发展报告》官方译文，对齐精准，为语言服务政策与产业研究提供标准参照。 | 语言服务政策分析、产业发展研究、多语言术语库构建、翻译质量评估。 | [点击下载 (v1.0)](https://github.com/MICLab-Lab/MultiICLab/releases/download/v1.0/CLSDR_9lang_dataset.zip) |
+| **MedMacau 四语医疗平行语料** | 中文（简体）、英文、葡萄牙语、粤语（繁体） | 高质量医疗领域平行语料，涵盖病历、药品说明、诊疗指南等，术语经过人工审校与标准化。 | 医疗领域机器翻译、多语医学术语抽取、智慧医疗本地化、跨语言医疗信息检索。 | [点击下载 (v1.0)](https://github.com/MICLab-Lab/MultiICLab/releases/download/v1.0/MedMacau_quad_dataset.zip) |
+
+> **更多数据集与详细信息**，请访问我们的 **[Datasets Wiki](https://github.com/MICLab-Lab/MultiICLab/wiki/Datasets)**。
+
+---
+
+## 🤝 加入我们
+
+**欢迎关注、合作与贡献！**
+
+- 📧 **联系邮箱**：xxx@mmc.edu.mo
+- 🌐 **实验室官网**：<https://xxx.edu.cn>
+- 💬 **交流与贡献**：欢迎通过 [GitHub Issues](https://github.com/MICLab-Lab/MultiICLab/issues) 提出建议或通过 [Pull Requests](https://github.com/MICLab-Lab/MultiICLab/pulls) 参与项目开发。
+
+---
+
+**版权声明** © 2025 多语智能计算实验室。保留所有权利。
