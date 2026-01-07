@@ -2,9 +2,24 @@
 
 <div align="center">
 
-![MultiICLab Banner](https://via.placeholder.com/1200x300/2C3E50/FFFFFF?text=MultiICLab+%E5%A4%9A%E8%AF%AD%E6%99%BA%E8%83%BD%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E5%AE%A4)
+
+## 所属机构
+<div align="center">
+<a href="https://mmc.edu.mo/" target="_blank">
+<img src="logo-mmc-small-1.png" alt="中西创新学院" width="200" style="margin: 10px;">
+</a>
+<br>
+<a href="https://mmc.edu.mo/" target="_blank" style="text-decoration: none; font-weight: bold; color: #2C3E50;">🌐 学校官网</a> · 
+<a href="中西創新學院" target="_blank" style="text-decoration: none; font-weight: bold; color: #2C3E50;">📱 学校公众号</a>
+</div>
+
+<br>
+
+
 
 **构建语言智能桥梁 · 赋能全球沟通未来**
+
+
 
 [![GitHub stars](https://img.shields.io/github/stars/MICLab-Lab/MultiICLab?style=for-the-badge&logo=github)](https://github.com/MICLab-Lab/MultiICLab/stargazers)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)](LICENSE)
