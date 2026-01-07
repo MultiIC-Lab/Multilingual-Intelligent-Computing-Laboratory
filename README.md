@@ -6,7 +6,7 @@
 ## 所属机构
 <div align="center">
 <a href="https://mmc.edu.mo/" target="_blank">
-<img src="logo-mmc-small-1.png" alt="中西创新学院" width="200" style="margin: 10px;">
+<img src="pics/logo-mmc-small-1.png" alt="中西创新学院" width="200" style="margin: 10px;">
 </a>
 <br>
 <a href="https://mmc.edu.mo/" target="_blank" style="text-decoration: none; font-weight: bold; color: #2C3E50;">🌐 学校官网</a> · 
