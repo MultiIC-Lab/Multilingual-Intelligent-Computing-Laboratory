@@ -10,7 +10,7 @@
 </a>
 <br>
 <a href="https://mmc.edu.mo/" target="_blank" style="text-decoration: none; font-weight: bold; color: #2C3E50;">🌐 学校官网</a> · 
-<a href="[中西創新學院](https://mp.weixin.qq.com/s/E56vR_b7lfSVm6r_shne_g)" target="_blank" style="text-decoration: none; font-weight: bold; color: #2C3E50;">📱 学校公众号</a>
+<a href="https://mp.weixin.qq.com/s/E56vR_b7lfSVm6r_shne_g" target="_blank" style="text-decoration: none; font-weight: bold; color: #2C3E50;">📱 学校公众号</a>
 </div>
 
 <br>
