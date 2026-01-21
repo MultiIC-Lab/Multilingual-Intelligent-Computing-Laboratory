@@ -127,7 +127,7 @@
 
 > **更多数据集与详细信息**，请访问我们的 **[Datasets Wiki](https://github.com/MICLab-Lab/MultiICLab/wiki/Datasets)**。
 
-## 🌐 开源平台（已上线）
+## 🔄 开源平台（已上线）
 
 我们已面向社会和行业推出以下开源/公益平台，欢迎体验与反馈：
 
@@ -140,6 +140,17 @@
 - **[新译智能翻译平台（与新译科技合作）](https://fanyi.newtranx.com/fileTrans)**  
   面向文档、合同、报告等文件翻译需求，提供高精度、多领域智能翻译服务，支持批量文件上传、术语库自定义与后编辑功能，广泛应用于商务、法律、科技等领域。
 ---
+
+## 🌐 公共资源
+
+自然语言处理相关公共资源：
+
+- **[NLP Resources](https://github.com/jia-zh/NLP-Resources?tab=readme-ov-file)**  
+  包含自然语言处理相关工具包、语料库、学习资料、相关技术、学术组织等。
+
+---
+
+
 
 ## 🤝 加入我们
 
