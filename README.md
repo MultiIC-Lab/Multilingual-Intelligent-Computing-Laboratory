@@ -125,7 +125,7 @@
 
 
 
-> **更多数据集与详细信息**，请访问我们的 **[Datasets Wiki](https://github.com/MICLab-Lab/MultiICLab/wiki/Datasets)**。
+> **更多数据集与详细信息**，请访问我们的 **[Datasets Wiki](https://www.wikipedia.org/)**。
 
 ## 🔄 开源平台（已上线）
 
